@@ -2,7 +2,7 @@ const display1E1 = document.querySelector('.display-1');
 const display2E1 = document.querySelector('.display-2');
 const display3E1 = document.querySelector('.temp-result');
 const numbersE1 = document.querySelectorAll('.number');
-const numbersE2 = document.querySelectorAll('.operation');
+const operationE1 = document.querySelectorAll('.operation');
 const equal1E1 = document.querySelectorAll('.equal');
 const clearE1 = document.querySelectorAll('.all-clear');
 const clearLastE1 = document.querySelectorAll('.last-entity-clear');
@@ -25,8 +25,8 @@ numbersE1.forEach(number => {
         display2E1.innerText = dis2Num;
     })
 })
-operationE1.forEach(opearation => {
-    opearation.addEventListener('click', (e) => {
+operationE1.forEach(operation => {
+    operation.addEventListener('click', (e) => {
         if (!dis2Num) result;
         haveDot = false;
     })
